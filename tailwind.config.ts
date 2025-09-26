@@ -58,6 +58,19 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      backgroundImage: {
+        'ocean-gradient': 'var(--ocean-gradient)',
+        'depth-gradient': 'var(--depth-gradient)',
+        'coral-gradient': 'var(--coral-gradient)',
+      },
+      boxShadow: {
+        'ocean': 'var(--shadow-ocean)',
+        'depth': 'var(--shadow-depth)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'cubic-bezier(0.23, 1, 0.320, 1)',
+        'wave': 'cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
